@@ -1,15 +1,13 @@
-function Home() {
+function Home({ theme, toggleTheme }) {
     return (
-        <div style={{
-            minHeight: '100vh',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: '#f0f4f8',
-            padding: '1rem',
-            boxSizing: 'border-box'
-        }}>
-            <h1 style={{ textAlign: 'center', color: '#102a43', margin: 0 }}>
+        <div className="center-container">
+            <div className="controls-row">
+                <button className="theme-toggle" onClick={toggleTheme} aria-pressed={theme === 'dark'}>
+                    Alternar tema ({theme === 'light' ? 'claro' : 'escuro'})
+                </button>
+            </div>
+
+            <h1 className="title">
                 Ter você do lado é o bem mais valioso e nenhum dinheiro pode comprar
             </h1>
         </div>
