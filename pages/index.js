@@ -10,12 +10,12 @@ function Home({ theme, toggleTheme }) {
           Alternar tema ({theme === "light" ? "claro" : "escuro"})
         </button>
       </div>
-
-      <h1 className="title">
-        Ter você do lado é o bem mais valioso e nenhum dinheiro pode comprar
-      </h1>
-    </div>
-  );
+            <blockquote>
+                <p>Deus não fez tudo num só dia; o que me faz pensar que eu possa? <cite>(William Shakespeare)</cite>
+                </p>
+            </blockquote>
+        </div>
+    )
 }
 
 export default Home;
