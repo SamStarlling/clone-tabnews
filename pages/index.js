@@ -10,11 +10,14 @@ function Home({ theme, toggleTheme }) {
           Alternar tema ({theme === "light" ? "claro" : "escuro"})
         </button>
       </div>
-            <blockquote>
-                <p>Deus não fez tudo num só dia; o que me faz pensar que eu possa? <cite>(William Shakespeare)</cite>
-                </p>
-            </blockquote>
-        </div>
+
+      <div>
+        <blockquote>
+            <p>Deus não fez tudo num só dia; o que me faz pensar que eu possa? <cite>(William Shakespeare)</cite>
+            </p>
+        </blockquote>
+      </div>
+    </div>
     )
 }
 
